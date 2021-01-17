@@ -39,10 +39,7 @@ form {
 	border-radius: 5px;
 }
 
-input:hover {
-	background-color: #ccc;
-}
-input:active {
+put:active {
 	color:slateblue;
 }
 
@@ -61,5 +58,10 @@ input:active {
 	input #head{
 		z-index: -1;
 	}
+
+	input:hover {
+	background-color: #ccc;
+}
+in
 }
 
