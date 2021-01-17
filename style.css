@@ -39,7 +39,7 @@ form {
 	border-radius: 5px;
 }
 
-put:active {
+input:active {
 	color:slateblue;
 }
 
