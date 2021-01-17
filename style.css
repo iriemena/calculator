@@ -1,35 +1,20 @@
-*{
+* {
 	box-sizing: border-box;
 }
-body{
+body {
 	background-color: gray;
-	
 }
 
-td{
-	animation: animate 5s infinite;
-}
-
-@keyframes animate{
-	10%{
-		background-color: darkblue;
-	}
-	50%{
-		background-color: darkgray;
-	}
-
-}
-span{
-	color:silver;
+span {
+	color: silver;
 	font-size: 2.5rem;
 	font-weight: bold;
 }
 
-
-input{
+input {
 	color: rgb(68, 25, 25);
 	font-weight: bold;
-	background-color:cadetblue;
+	background-color: cadetblue;
 	border-radius: 10px;
 	font-size: 1.5rem;
 	width: 100%;
@@ -37,7 +22,7 @@ input{
 	margin-top: 5px;
 }
 
-form{
+form {
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -48,40 +33,33 @@ form{
 	padding: 10px;
 }
 
-#head{
+#head {
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 5px;
-		
 }
 
-input:hover{
+input:hover {
 	background-color: #ccc;
-	box-shadow: 0 3px 5px #c3c3;
 }
-input:active{
-	color: red
+input:active {
+	color:slateblue;
 }
 
-@media screen and (min-width: 1024px){
-
-	input{
+@media screen and (min-width: 1024px) {
+	input {
 		color: rgb(68, 25, 25);
 		font-weight: bold;
-		background-color:cadetblue;
+		background-color: cadetblue;
 		border-radius: 10px;
-		font-size: 2rem;
+		font-size: 2.5rem;
 		width: 100%;
 		padding: 30px;
 		margin-top: 5px;
 	}
-	
+
+	input #head{
+		z-index: -1;
+	}
 }
 
-@media screen and (min-width: 1200px){
-	
-	input{
-		font-size:2.5rem;
-		padding: 30px;
-	}
-}  
